@@ -8,11 +8,29 @@
     <title>Quizdom</title>
 </head>
 <body>
-    <h1>Don't Worry, it Will be OK</h1>
-    <div class="start"> 
-        <p><strong>The Rules:</strong> Answer all the questions correctly within the time limit and earn a spot on the leaderboard! If you get a question wrong, time will be deducted.</p>
-        <button id="startBtn" class="btn">Let's DO IT</button>
-    </div>
+<section id= "Lets-start" class="start">
+ <h1>Don't Worry, it Will be OK</h1>
+     <p><strong>The Rules:</strong> Answer all the questions correctly within 60 seconds and earn a spot on the leaderboard! If you get a question wrong, 10 seconds will be deducted.</p>
+     <button id="startBtn" class="btn" role="button"> Let's DO IT</button>
+</section>
+
+<section id ="questions" class ="hide">
+    <h2 class="timer">Time: </h2>
+    <h2 id="quiz-question"></h2>
+    <div id="answers" class="answers"></div>
+    <!-- create four buttons -->
+</section>
+
+<section id="finished" class="hide"> 
+    <h1>You're Done!</h1> 
+    <p>Your Score: <span id="Your-score"></span></p>
+    <p>Enter Your Initials: <input type="text" id="initinals" max="3"/></p>
+</section> 
+
+
     
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>   
+<script src="Assets/style.js"></script>
 </body>
 </html>

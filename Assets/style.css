@@ -9,6 +9,9 @@
     padding: 0;
     color: rgb(22, 23, 20)
  }
+ .hide {
+   display: none;
+ }
 
  body {
     margin: auto;
