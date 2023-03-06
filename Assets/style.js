@@ -51,7 +51,7 @@ var currentQuestionI = 0
 function nextQuestion(){
 var currentQuestion = questions[currentQuestionI]
 var questionTitle = document.querySelector("#quiz-question")
-questionTitle.innterText=currentQuestion.title
+questionTitle.innerText=currentQuestion.title
 questionsEl.appendChild(questionTitle)
 for (let i=0; i<currentQuestion.choices.length;i++){
     var element= currentQuestion.choices[i]
